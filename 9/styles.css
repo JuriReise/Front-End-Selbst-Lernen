@@ -1,0 +1,20 @@
+/* Задаём высоту для <html> и <body> */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* На всю высоту окна браузера */
+}
+
+/* Родительский контейнер */
+.parent {
+    height: 80%; /* 50% от высоты <body>, а значит 50% от окна браузера */
+    background-color: lightblue;
+}
+
+/* Дочерний элемент */
+.child {
+    height: 100%; /* На всю высоту родителя (.parent) */
+    background-color: lightcoral;
+    text-align: center;
+    line-height: 100px; /* Вертикальное выравнивание текста */
+}
